@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#702b45">
+  <meta name="description" content="مساحة رغد — اكتب ما في قلبك وأرسل رسالة مجهولة بكل لطف وخصوصية.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="مساحة رغد | كلام في القلب يوصل بلا اسم">
+  <meta property="og:description" content="رسالة صادقة، كلمة حلوة، أو اعتراف ما قدرت تقوله باسمك. اكتبها هنا بكل لطف.">
+  <meta property="og:image" content="/static/images/og-cover.svg">
+  <title>مساحة رغد | كلام في القلب يوصل بلا اسم</title>
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.9a5.5 5.5 0 0 0-7.8 0L12 5.9l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.3 1-1a5.5 5.5 0 0 0 0-7.8Z" fill="currentColor"/></symbol>
+    <symbol id="i-feather" viewBox="0 0 24 24"><path d="M20.2 3.8C14 2 7.3 5 5.2 10.4c-1.1 2.8-.2 5.3 2.1 6.1M20.2 3.8c1.8 6.2-1.2 12.9-6.6 15-2.8 1.1-5.3.2-6.1-2.1m12.7-12.9L3.8 20.2M9 15l-3-1m7-3-1-3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 2 1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2Zm7 13 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15ZM5 2l.7 2.3L8 5l-2.3.7L5 8l-.7-2.3L2 5l2.3-.7L5 2Z" fill="currentColor"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4 20-7ZM22 2 11 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="topline"><span class="tiny-heart">♥</span> بعض الكلام يحتاج مساحة آمنة فقط <span class="tiny-heart">♥</span></div>
+  <header class="site-header wrap">
+    <a class="brand" href="/raghad" aria-label="العودة إلى الصفحة الرئيسية">
+      <span class="brand-mark"><svg><use href="#i-heart"/></svg></span>
+      <span><strong>مساحة رغد</strong><small>كلام في القلب، بلا أسماء</small></span>
+    </a>
+    <nav class="main-nav" aria-label="التنقل الرئيسي">
+      <a href="#about">عن المساحة</a><a href="#how">كيف تعمل؟</a><a href="#write">اكتب رسالتك</a>
+    </nav>
+    <button class="share-top" id="shareLink" type="button"><svg><use href="#i-copy"/></svg><span>مشاركة الرابط</span></button>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="top">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> مساحة صغيرة للكلام الكبير</div>
+        <h1>في كلام يسكن<br>القلب… <em>اكتبه.</em></h1>
+        <p class="hero-lead">رسالة حلوة، اعتراف مؤجّل، لهفة ما لقت طريقها، أو كلمة كان ودّك تقولها من زمان. هنا تقدر تكتبها وتوصلها <strong>بدون ما تكتب اسمك.</strong></p>
+        <div class="hero-actions"><a class="button button-primary" href="#write">اكتب رسالتك <svg><use href="#i-arrow"/></svg></a><a class="text-link" href="#how">كيف تتم؟ <span>↓</span></a></div>
+        <div class="hero-note"><span class="note-icon"><svg><use href="#i-lock"/></svg></span><span><strong>بلا أسماء، وبلا أحكام</strong><small>رسالتك هي اللي تتكلم عنك.</small></span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="رسم فني لوردة رقيقة داخل دوائر ذهبية" role="img">
+        <div class="art-halo"></div><img src="/static/images/rose-orbit.svg" alt="وردة مرسومة بألوان وردية وعنابية" class="rose-art">
+        <div class="floating-note note-a"><span>♡</span> كلمة من القلب</div><div class="floating-note note-b"><span>✧</span> بلا اسم… بكل صدق</div>
+        <div class="art-caption"><span class="caption-dot"></span> مساحة للمشاعر الصادقة</div>
+      </div>
+      <div class="scroll-cue"><span></span> انزل واكتب اللي في قلبك</div>
+    </section>
+
+    <section class="quote-band" id="about">
+      <div class="quote-inner wrap"><span class="quote-mark">“</span><p>أحيانًا، أجمل الكلام هو الكلام الذي <em>نحتاج فقط أن نقوله.</em></p><span class="quote-sparkle"><svg><use href="#i-sparkle"/></svg></span></div>
+    </section>
+
+    <section class="how-section wrap" id="how">
+      <div class="section-heading reveal"><span class="eyebrow centered"><span class="eyebrow-line"></span> بكل بساطة <span class="eyebrow-line"></span></span><h2>ثلاث خطوات… وتوصل الكلمة</h2><p>ما تحتاج حساب، ولا اسم، ولا مقدمات طويلة.</p></div>
+      <div class="steps">
+        <article class="step reveal"><span class="step-number">01</span><div class="step-icon icon-paper"><svg><use href="#i-feather"/></svg></div><h3>اكتب شعورك</h3><p>خذ لحظة، ورتّب الكلام بالطريقة اللي تشبهك. رسالة قصيرة أو كلام من القلب.</p><span class="step-stroke"></span></article>
+        <article class="step reveal"><span class="step-number">02</span><div class="step-icon icon-heart"><svg><use href="#i-heart"/></svg></div><h3>أرسلها بلا اسم</h3><p>ما نطلب منك اسمك أو حسابك. اختر نوع الرسالة واضغط إرسال.</p><span class="step-stroke"></span></article>
+        <article class="step reveal"><span class="step-number">03</span><div class="step-icon icon-spark"><svg><use href="#i-sparkle"/></svg></div><h3>خلّها توصل</h3><p>تصل الرسالة إلى صندوق رغد الخاص، بعيدًا عن أعين الزوار الآخرين.</p><span class="step-stroke"></span></article>
+      </div>
+    </section>
+
+    <section class="write-section" id="write">
+      <div class="write-orb orb-left"></div><div class="write-orb orb-right"></div>
+      <div class="write-wrap wrap">
+        <div class="write-intro reveal"><span class="eyebrow"><span class="eyebrow-line"></span> دورك الآن</span><h2>خلّ الكلام<br><em>يطلع من قلبك.</em></h2><p>مش لازم تكون شاعرًا، ولا تعرف تختار أجمل الكلمات. اكتب بصدق، والباقي على الرسالة.</p><div class="write-flourish">♡ <span>كلمات صادقة، أثرها يبقى</span> ♡</div></div>
+        <div class="message-paper reveal">
+          <div class="paper-top"><span class="paper-icon"><svg><use href="#i-feather"/></svg></span><div><h3>رسالة إلى رغد</h3><p>اكتب ما تريد قوله دون ذكر اسمك</p></div><span class="paper-seal">♡</span></div>
+          <form id="messageForm">
+            <label class="field-label" for="mood">رسالتك أقرب إلى… <span>اختياري</span></label>
+            <div class="mood-options" role="group" aria-label="نوع الرسالة">
+              <button type="button" class="mood-chip active" data-mood="رسالة من القلب">🤍 من القلب</button>
+              <button type="button" class="mood-chip" data-mood="اعتراف">💌 اعتراف</button>
+              <button type="button" class="mood-chip" data-mood="اشتياق ولهفة">🌙 اشتياق</button>
+              <button type="button" class="mood-chip" data-mood="كلمة حلوة">🌷 كلمة حلوة</button>
+              <button type="button" class="mood-chip" data-mood="عتاب بلطف">🕊️ عتاب بلطف</button>
+              <button type="button" class="mood-chip" data-mood="شيء لم أقله">✨ شيء ما قلته</button>
+            </div>
+            <label class="field-label message-label" for="messageBody">رسالتك <span>من 2 إلى 1200 حرف</span></label>
+            <div class="textarea-wrap"><textarea id="messageBody" name="body" maxlength="1200" minlength="2" placeholder="يمكن كلمة بسيطة تغيّر يوم كامل… اكتبها هنا 🤍" required></textarea><span class="textarea-heart">♡</span></div>
+            <div class="form-meta"><span id="charCount">0 / 1200</span><span><svg><use href="#i-lock"/></svg> لا نطلب اسمك</span></div>
+            <button class="button button-send" type="submit" id="sendButton"><span>إرسال الرسالة بسرية</span><svg><use href="#i-send"/></svg></button>
+            <p class="form-disclaimer">بالإرسال، تأكد من عدم تضمين معلومات شخصية حساسة أو كلام يؤذي أحدًا. تُستخدم الرسائل للإيصال فقط، ويمكن لصاحبة الصندوق حذفها.</p>
+            <div class="form-status" id="formStatus" role="status" aria-live="polite" hidden></div>
+          </form>
+          <div class="paper-bottom"><span>كُتبت بمشاعر، وأُرسلت بلطف</span><span class="paper-hearts">♡ ♡ ♡</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="privacy-section wrap">
+      <div class="privacy-lock"><svg><use href="#i-lock"/></svg></div><div><h3>خصوصيتك مهمة</h3><p>لا يظهر اسمك في الرسالة ولا نطلب منك حسابًا. الرسائل محفوظة لصاحبة الصندوق فقط. وتذكّر أن خدمة الاستضافة قد تعالج بيانات اتصال تقنية، لذلك لا تكتب معلومات شديدة الحساسية.</p></div><span class="privacy-flower">✿</span>
+    </section>
+
+    <section class="last-note wrap"><span class="last-heart">♥</span><p>يمكن ما نعرف أثر الكلمة بعد ما نقولها…<br><em>لكن الصدق دائمًا له طريق.</em></p><span class="last-ornament">✧</span></section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#top"><span class="brand-mark"><svg><use href="#i-heart"/></svg></span><strong>مساحة رغد</strong></a><p>للكلمات التي تبحث عن مكان آمن 🤍</p><div class="footer-rule"></div><small>صُنعت الفكرة بمحبة، وتكتمل بلطفكم · <span id="year"></span></small></footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>
