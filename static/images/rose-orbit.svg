@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 620" fill="none">
+  <defs>
+    <linearGradient id="petal" x1="163" y1="118" x2="427" y2="456" gradientUnits="userSpaceOnUse"><stop stop-color="#F9D9E2"/><stop offset=".45" stop-color="#C95D79"/><stop offset="1" stop-color="#70233E"/></linearGradient>
+    <linearGradient id="petal2" x1="236" y1="151" x2="390" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#FFEAF0"/><stop offset="1" stop-color="#A93659"/></linearGradient>
+    <linearGradient id="gold" x1="102" y1="65" x2="524" y2="530" gradientUnits="userSpaceOnUse"><stop stop-color="#EAD5A5"/><stop offset="1" stop-color="#B18A54"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#F9DAE4" stop-opacity=".9"/><stop offset="1" stop-color="#F9DAE4" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="70" y="65" width="480" height="490" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <circle cx="310" cy="310" r="240" fill="url(#glow)" opacity=".65" filter="url(#shadow)"/>
+  <circle cx="310" cy="310" r="238" stroke="url(#gold)" stroke-opacity=".52" stroke-width="1.2"/>
+  <circle cx="310" cy="310" r="211" stroke="#B18A54" stroke-opacity=".28" stroke-dasharray="2 9"/>
+  <path d="M178 446c56-74 91-147 120-259 8 95-9 185-63 274" fill="#4D7D64" fill-opacity=".82"/>
+  <path d="M305 460c-2-91 19-169 73-250-8 101-22 182-53 263" fill="#689079" fill-opacity=".9"/>
+  <path d="M240 387c-60-34-91-87-83-135 50 14 87 62 83 135Z" fill="#73957A"/>
+  <path d="M354 360c19-69 64-105 114-109-12 54-57 93-114 109Z" fill="#527C65"/>
+  <path d="M310 461c7-100 22-171 45-234" stroke="#3D6B53" stroke-width="5" stroke-linecap="round"/>
+  <path d="M308 462c-6-71-38-130-86-180" stroke="#3D6B53" stroke-width="4" stroke-linecap="round"/>
+  <path d="M310 275c-62-61-35-132 9-149 44 16 72 76 20 149" fill="url(#petal)"/>
+  <path d="M319 279c-82-35-122-4-113 41 12 55 74 68 114 25 39 44 101 28 111-25 8-43-30-75-112-41Z" fill="url(#petal)"/>
+  <path d="M310 271c-32-72-100-71-119-31-20 43 14 97 109 91M321 271c32-72 100-71 119-31 20 43-14 97-109 91" fill="url(#petal2)"/>
+  <path d="M310 301c-55-49-93-21-75 26 16 41 60 43 75 13 15 30 59 28 75-13 18-47-20-75-75-26Z" fill="#B84262"/>
+  <path d="M309 302c-20-24-23-49 0-77 22 25 20 52 0 77Z" fill="#F6CBD7"/>
+  <path d="M235 225c-21-18-24-40-9-53 15-13 33 1 30 21 15-21 40-15 42 4 3 23-30 33-63 28Z" fill="#D9849C"/>
+  <path d="M386 226c21-18 24-40 9-53-15-13-33 1-30 21-15-21-40-15-42 4-3 23 30 33 63 28Z" fill="#D9849C"/>
+  <circle cx="151" cy="207" r="5" fill="#E1B875"/><circle cx="455" cy="163" r="4" fill="#E1B875"/><circle cx="472" cy="370" r="6" fill="#E1B875"/><circle cx="158" cy="394" r="3" fill="#E1B875"/>
+  <path d="M117 304c-8-9-8-23 3-31 11-8 26-2 26 12 0-14 15-20 26-12 11 8 11 22 3 31l-29 27-29-27Z" fill="#C96782" opacity=".8"/>
+  <path d="M438 444c-5-6-5-15 2-20 7-5 17-1 17 8 0-9 10-13 17-8 7 5 7 14 2 20l-19 18-19-18Z" fill="#C96782" opacity=".8"/>
+  <path d="M310 74v24m0 424v24m-248-236h24m448 0h24" stroke="url(#gold)" stroke-width="2" stroke-linecap="round"/>
+</svg>

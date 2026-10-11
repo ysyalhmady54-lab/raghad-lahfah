@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8f7"/><stop offset=".52" stop-color="#f7e4e9"/><stop offset="1" stop-color="#f2d5df"/></linearGradient><linearGradient id="wine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8f3151"/><stop offset="1" stop-color="#4a1e32"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+  <circle cx="950" cy="270" r="240" fill="#fff" opacity=".38"/><circle cx="950" cy="270" r="208" fill="none" stroke="#b38b5a" stroke-opacity=".4" stroke-width="2"/>
+  <g transform="translate(760 76) scale(.63)"><image href="rose-orbit.svg" width="620" height="620"/></g>
+  <text x="100" y="190" font-family="sans-serif" font-size="27" fill="#a47b79" letter-spacing="7">RAGHAD'S LETTERS</text>
+  <text x="100" y="295" font-family="sans-serif" font-size="68" font-weight="700" fill="url(#wine)">كلام في القلب</text>
+  <text x="100" y="375" font-family="sans-serif" font-size="68" font-weight="700" fill="url(#wine)">يوصل بلا اسم</text>
+  <text x="104" y="445" font-family="sans-serif" font-size="27" fill="#795e67">مساحة هادئة للمشاعر الصادقة والرسائل المجهولة</text>
+  <path d="M100 500h125" stroke="#b38b5a" stroke-width="3" stroke-linecap="round"/>
+  <text x="100" y="545" font-family="sans-serif" font-size="21" fill="#9a6c79">مساحة رغد للرسائل المجهولة</text>
+</svg>
